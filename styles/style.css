@@ -81,6 +81,9 @@ nav h3{
 .fa-arrow-right{
     margin-left: 8px;
 } 
+
 .container img{
     width: 100%;
+    filter: drop-shadow(1px 1px 5px gray);
 }
+
