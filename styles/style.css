@@ -24,15 +24,19 @@ nav h3{
     display: flex;
     margin-left: 120px;
     margin-top: 0px;
+    align-items: center;
     /* justify-content: center; */
 }
 .heading{
+    display: flex;
+    flex-direction: column;
     margin-right: 133px;
+
 }
 
 .container h1{
 
-    width: 582px;
+    /* width: 582px; */
     height: 133px;
     font-size: 52px;
     font-weight: 700px;
@@ -46,7 +50,37 @@ nav h3{
     font-weight: 600px;
     color: #3A3A3A;
     
+    
 }
+.prebook-button{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700px;
+    color:#FFFFFF;
+    
+    
+    
+    
+}
+.prebook-button-div{
+    margin-top: 16px;
+    width: 140px;
+    transition: width 1s;
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    padding: 10px 24px;
+    border-radius: 41px;
+    box-shadow: 2px 2px 5px gray;
+}
+.prebook-button-div:hover{
+    width: 170px;
+    
+}
+
+
+
+.fa-arrow-right{
+    margin-left: 8px;
+} 
 .container img{
     width: 100%;
 }
