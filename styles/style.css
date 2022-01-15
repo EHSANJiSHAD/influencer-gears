@@ -1,18 +1,12 @@
-/* Fonts */
+/* -----Fonts---- */
 @import url('https://fonts.googleapis.com/css2?family=Galada&family=Poppins&display=swap');
 
-/* body style */
+/*-----body style---- */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
-/* header style */
-
-main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+/*---- header style starts----*/
 
 .navigation-bar-space{
     display: flex;
@@ -26,6 +20,17 @@ nav h3{
     color: #3A3A3A;
     
 }
+/* ----main style starts---- */
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* ----main style ends---- */
+
+
+/*---- header style starts----*/
 
 /* headline style */
 .container{
@@ -96,7 +101,7 @@ nav h3{
     filter: drop-shadow(1px 1px 5px gray);
 }
 
-/*---- Popular section start---- */
+/*---- Popular section style starts---- */
 .popular-section-container{
     display: flex;
     flex-direction: column;
@@ -179,3 +184,57 @@ nav h3{
     font-size: 14px;
     font-weight: 700;
 }
+
+/*---- Popular section style ends---- */
+
+/* ----Footer section style starts---- */
+
+#footer-style{
+    border: 1px solid rgb(230, 59, 59);
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.footer-info-div{
+    text-align: center;
+}
+footer h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;;
+}
+footer h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: #D9DBE1;
+    margin-top: -20px;
+    
+}
+
+.social-media{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    
+}
+.fa-instagram{
+    color: rgb(226, 213, 213);
+}
+.fa-dribbble{
+    color: rgb(226, 213, 213);
+}
+.fa-twitter{
+    color: rgb(226, 213, 213);
+}
+.fa-youtube{
+    color: rgb(226, 213, 213);
+}
+
+.social-icon-margin{
+    margin:0px 16px;
+    background-color: #ffffff2a;
+    /* background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+    padding: 0px 5px;
+    border-radius: 20px;
+}
+/* ----Footer section style ends---- */
