@@ -185,6 +185,7 @@ main{
     font-weight: 700;
 }
 .see-more{
+    text-decoration: none;
     padding-left: 1000px;
     font-weight: bold;
     font-size: 16px;
@@ -192,6 +193,52 @@ main{
 }
 
 /*---- Popular section style ends---- */
+
+
+/* Link and support section style starts */
+.quick-link-support{
+    background-image: linear-gradient(45deg, #f0953365 0%, #e6693c71 25%, #dc27428f 50%, #cc236754 75%, #bc188869 100%);
+    width: 1345px;
+    
+}
+    .link-and-support{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .link-and-support h3{
+        color: #faf6f6;
+        font-weight: 900;
+        text-align: center;
+        
+    }
+.quick-link-div li{
+    list-style: none;
+    text-align: left;
+    margin-top: -5px;
+    margin-left: 243px;
+}
+.quick-link-div2 li{
+    list-style: none;
+    text-align: left;
+    margin-top: -5px;
+    margin-left: 257px;
+}
+
+.quick-link-div li a{
+    
+    text-decoration: none;
+    color: #6e172d;
+    
+}
+.quick-link-div2 li a{
+    
+    text-decoration: none;
+    color: #6e172d;
+    
+}
+/* Link and support section style starts */
 
 /* ----Footer section style starts---- */
 
