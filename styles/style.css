@@ -334,4 +334,10 @@ footer h6{
     width: 50%;
     margin-left: 25%;
    }
+/* popular section for mobile starts */
+   .blogs{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+   }
+
 }
