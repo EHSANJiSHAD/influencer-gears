@@ -339,5 +339,33 @@ footer h6{
        display: grid;
        grid-template-columns: repeat(1,1fr);
    }
+   /* .see-more{
+       text-align: center;
+   } */
 
-}
+/* quick link and support section for mobile starts */
+   .quick-link-support{
+       width: 420px;
+   }
+   .quick-link-div{
+       width: 50%;
+   }
+   .quick-link-div ul li a{
+       margin-left: -250px;
+   }
+   .quick-link-div h3{
+    margin-left: 20px;
+   }
+   .quick-link-div2 ul li a{
+    margin-left: -280px;
+   }
+   .quick-link-div2{ 
+    width: 50%;
+   }
+   .quick-link-div2 h3{ 
+    width: 50%;
+    margin-left: 15px;
+   }
+
+
+} 
