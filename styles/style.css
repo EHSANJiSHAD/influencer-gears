@@ -330,5 +330,8 @@ footer h6{
    .prebook-button{
        width: 100%;
    }
-
+   .camera-image img{
+    width: 50%;
+    margin-left: 25%;
+   }
 }
