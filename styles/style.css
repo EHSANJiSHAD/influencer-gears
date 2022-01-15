@@ -241,11 +241,12 @@ main{
     color: #6e172d;
     
 }
-/* Link and support section style starts */
+/* Link and support section style ends */
 
 /* ----Footer section style starts---- */
 
 #footer-style{
+    
     border: 1px solid rgb(230, 59, 59);
     background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
@@ -350,9 +351,19 @@ footer h6{
 
 /* quick link and support section for mobile starts */
    .quick-link-support{
-       width: 415px;
+       width: 375px;
    }
-   .quick-link-div{
+   .link-and-support{
+       display: flex;
+       flex-direction: column;
+   }
+   .quick-link-div ul li a{
+    margin-left: -250px;
+}   
+   .quick-link-div2 ul li a{
+    margin-left: -260px;
+   }
+   /* .quick-link-div{
        width: 50%;
    }
    .quick-link-div ul li a{
@@ -371,7 +382,7 @@ footer h6{
     width: 50%;
     margin-left: -45px;
    
-   }
+   } */
 
 
 } 
