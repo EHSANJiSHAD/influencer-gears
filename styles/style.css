@@ -299,19 +299,36 @@ footer h6{
     text-align: center;
    }
    .container{
-       width: 100%;
+       width: 80%;
        grid-template-columns: repeat(1,1fr);
     
    }
    .heading{
-       width: 100%;
+       width: 50%;
        
    }
    .heading h1{
     
        font-size: 26px;
        text-align: center;
-       margin-left: 40px;
+       margin-left: 35px;
        margin-right: 40px;
    }
+   .heading h3{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding-left:60px;
+    padding-right: 60px;
+    margin-top: -60px;
+    margin-left: 100px;
+   }
+   .prebook-button-div{
+       width: 50%;
+       margin-left: 220px;
+   }
+   .prebook-button{
+       width: 100%;
+   }
+
 }
