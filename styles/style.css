@@ -184,9 +184,11 @@ main{
     font-size: 14px;
     font-weight: 700;
 }
- 
+ .see-more-div{
+     text-align: right;
+ }
 .see-more{
-    
+    margin-top: 10px;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
@@ -199,7 +201,7 @@ main{
 /* Link and support section style starts */
 .quick-link-support{
     background-image: linear-gradient(45deg, #f0953365 0%, #e6693c71 25%, #dc27428f 50%, #cc236754 75%, #bc188869 100%);
-    width: 1345px;
+    width: 1350px;
     
 }
     .link-and-support{
@@ -340,11 +342,11 @@ footer h6{
        display: grid;
        grid-template-columns: repeat(1,1fr);
    }
-   .see-more-div h5{
+   /* .see-more-div h5{
        width: 50%;
        margin-left: -400px;
        
-   }
+   } */
 
 /* quick link and support section for mobile starts */
    .quick-link-support{
@@ -373,3 +375,84 @@ footer h6{
 
 
 } 
+
+/* For ipad devices */
+@media only screen and (min-width:689px) and (max-width:992px)
+{
+    header h3{
+        text-align: center;
+        margin-left: 180px;
+       }
+       .container{
+           width: 50%;
+           grid-template-columns: repeat(1,1fr);
+        
+       }
+       .heading{
+           width: 50%;
+           
+       }
+       .heading h1{
+        
+           font-size: 26px;
+           text-align: center;
+           margin-left: 35px;
+           margin-right: 40px;
+       }
+       .heading h3{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        padding-left:60px;
+        padding-right: 50px;
+        margin-top: -60px;
+        margin-left: 100px;
+       }
+       .prebook-button-div{
+           width: 50%;
+           margin-left: 220px;
+       }
+       .prebook-button{
+           width: 100%;
+       }
+       .camera-image img{
+        width: 50%;
+        margin-left: 25%;
+       }
+    /* popular section for mobile starts */
+       .blogs{
+           display: grid;
+           grid-template-columns: repeat(2,1fr);
+       }
+       /* .see-more-div h5{
+           width: 50%;
+           margin-left: -400px;
+           
+       } */
+    
+    /* quick link and support section for mobile starts */
+       .quick-link-support{
+           width: 415px;
+       }
+       .quick-link-div{
+           width: 50%;
+       }
+       .quick-link-div ul li a{
+           margin-left: -250px;
+       }
+       .quick-link-div h3{
+        margin-left: 20px;
+       }
+       .quick-link-div2 ul li a{
+        margin-left: -340px;
+       }
+       .quick-link-div2{ 
+        width: 50%;
+       }
+       .quick-link-div2 h3{ 
+        width: 50%;
+        margin-left: -45px;
+       
+       }
+    
+}
